@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import {Box,Paper} from '@material-ui/core';
+import {Box} from '@material-ui/core';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import PhoneIcon from '@material-ui/icons/Phone';
@@ -10,19 +10,20 @@ import PersonPinIcon from '@material-ui/icons/PersonPin';
 //import {FaceBookIcon,WhatsAppIcon} from "@material-ui/icons"
 //import indigo from '@material-ui/core/colors/indigo'
 
-const useStyles = makeStyles({
-  //const primary =indigo[500],
+/*const useStyles = makeStyles({
+ 
+//const primary =indigo[500],
  
   root: {
-    flexGrow: 1,
-    maxWidth: 1000,
+   flexGrow: 1,
+   maxWidth: 1000,
   
     
   },
-});
+});*/
 
 function Footer() {
-  const classes = useStyles();
+
   
 
   return (

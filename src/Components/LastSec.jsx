@@ -1,5 +1,5 @@
 import React from 'react';
-import{Box, Grid,CardMedia, Typography,Button} from "@material-ui/core"
+import{Box, Grid,CardMedia,Button} from "@material-ui/core"
 import Lottie from "react-lottie"
 import motorbike from "./../animations/motorbike.json"
 import { makeStyles } from '@material-ui/core/styles';
@@ -26,7 +26,7 @@ function LastSec() {
 
   return (
     <div>
-      <Box width="500" bgcolor="secondary.main" color="text.disabled" width={"100%"} textAlign="center"fontSize="h4.fontSize">
+      <Box bgcolor="secondary.main" color="text.disabled" width={"100%"} textAlign="center"fontSize="h4.fontSize">
          For orders 
         </Box>
         <Grid container xs={12} spacing={2} className={classes.root}>

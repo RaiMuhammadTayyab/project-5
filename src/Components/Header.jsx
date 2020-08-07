@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     color:"primary",
     align:"center",
-    color:"inherit"
+  
     
   
 
