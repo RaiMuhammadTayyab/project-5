@@ -26,7 +26,7 @@ function LastSec() {
 
   return (
     <div>
-      <Box bgcolor="secondary.main" color="text.disabled" width={"100%"} textAlign="center"fontSize="h4.fontSize">
+      <Box bgcolor="secondary.main" color="text.disabled" width="500" textAlign="center"fontSize="h4.fontSize">
          For orders 
         </Box>
         <Grid container xs={12} spacing={2} className={classes.root}>
